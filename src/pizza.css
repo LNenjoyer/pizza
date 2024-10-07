@@ -1,0 +1,16 @@
+table, tr{
+    background-color: antiquewhite;
+}
+#lewa{
+    text-align: left;
+}
+#ok{
+    font-style: italic;
+}
+#reszta{
+    h1{
+        text-align: right;
+    }
+    width: 300px;
+    text-align: center;
+}
