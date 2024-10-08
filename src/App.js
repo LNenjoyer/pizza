@@ -15,12 +15,13 @@ const pizza = [
 ]
 const App = () =>(
     <div className="App">
-        <h1>Pizzeria</h1>
-        <Pizza name={pizza[0].name} photo={pizza[0].photo} size={pizza[0].size} desc={pizza[0].desc}/>
-        <Pizza name={pizza[1].name} photo={pizza[1].photo} size={pizza[1].size} desc={pizza[1].desc}/>
-        <Pizza name={pizza[2].name} photo={pizza[2].photo} size={pizza[2].size} desc={pizza[2].desc}/>
-        <Pizza name={pizza[3].name} photo={pizza[3].photo} size={pizza[3].size} desc={pizza[3].desc}/>
-        <Pizza name={pizza[4].name} photo={pizza[4].photo} size={pizza[4].size} desc={pizza[4].desc}/>
+        <div className="tlo">
+            <Pizza name={pizza[0].name} photo={pizza[0].photo} size={pizza[0].size} desc={pizza[0].desc}/>
+            <Pizza name={pizza[1].name} photo={pizza[1].photo} size={pizza[1].size} desc={pizza[1].desc}/>
+            <Pizza name={pizza[2].name} photo={pizza[2].photo} size={pizza[2].size} desc={pizza[2].desc}/>
+            <Pizza name={pizza[3].name} photo={pizza[3].photo} size={pizza[3].size} desc={pizza[3].desc}/>
+            <Pizza name={pizza[4].name} photo={pizza[4].photo} size={pizza[4].size} desc={pizza[4].desc}/>
+        </div>
     </div>
 )
 

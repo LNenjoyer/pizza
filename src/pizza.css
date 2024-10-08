@@ -1,5 +1,11 @@
 table, tr{
     background-color: antiquewhite;
+    margin: 10px;
+}
+tr:hover{
+    scale: 120%;
+    padding: 20px;
+
 }
 #lewa{
     text-align: left;
@@ -8,9 +14,13 @@ table, tr{
     font-style: italic;
 }
 #reszta{
-    h1{
-        text-align: right;
-    }
-    width: 300px;
-    text-align: center;
+    text-align: left;
+    width: 500px;
+}
+#koszyk{
+    vertical-align: bottom;
+    align-items: end;
+}
+a>img{
+    height: 100px;
 }
